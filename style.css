@@ -1,0 +1,66 @@
+/*      index page css         */
+body ,html {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #007bff;
+    font-family: sans-serif;
+}
+
+.input-form ,h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    width: 300px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+}
+
+.field-1, .field-2, .field-3 {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #01ad07;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/*      display page css         */
+.items{
+    height: 35px;
+    width: 200px;
+    background-color: rgb(120, 235, 92);
+}
+option{
+    background-color: rgb(56, 154, 32);
+}
